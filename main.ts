@@ -10,4 +10,6 @@ radio.onReceivedString(function (receivedString) {
 input.onButtonPressed(Button.B, function () {
     radio.sendString("B")
 })
-radio.setGroup(1)
+radio.setGroup(83)
+radio.setFrequencyBand(83)
+radio.setTransmitPower(7)
